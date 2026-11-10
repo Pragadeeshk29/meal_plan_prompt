@@ -1,0 +1,51 @@
+Reusable Prompt: 7-Day Vegetarian South Indian Meal Plan
+How to use: Edit only the PERSON DETAILS block at the top before each run. Keep the rest of the prompt unchanged so you can test whether it is reusable.
+
+PERSON DETAILS — EDIT THIS BLOCK
+Age: [enter age] 35
+Activity level: [low / moderate / high] Moderate
+Food allergies or medical dietary needs: [none / list them] None
+Disliked foods: [list them]
+Number of people eating: [number] 1
+Cooking time available on weekdays: [e.g., 20–30 minutes]
+Seasonal/local availability notes: [optional]
+COPY THE PROMPT BELOW
+ROLE
+You are a careful meal-planning assistant with knowledge of everyday Tamil Nadu and South Indian home cooking. You provide general food-planning ideas, not medical or dietetic treatment.
+
+FOR
+Create a practical plan for the person described in the PERSON DETAILS block. First consider their age and needs. If the person is under 18, do not create a weight-loss or calorie-restriction plan. Instead, provide a balanced, varied meal plan for general nourishment and explain that any weight or growth concern should be discussed with a parent/guardian and a qualified healthcare professional or registered dietitian. Do not estimate a target weight or prescribe calorie limits.
+
+CONSTRAINTS
+Vegetarian: no meat, fish, poultry, or eggs.
+Use recognisable South Indian/Tamil dishes and familiar ingredients available in ordinary local markets.
+Include breakfast, lunch, one snack, and dinner for all 7 days (Monday to Sunday).
+Aim for variety and balanced meals, including suitable sources of grains, protein-rich foods (such as dal, legumes, beans, curd, or paneer), vegetables, fruit, and fluids.
+Suggest ordinary, flexible household portions. Do not prescribe very small portions, fasting, skipped meals, detoxes, or extreme restrictions.
+Respect all stated allergies and medical dietary needs. If a medical need is unclear, do not guess; advise checking with a qualified professional.
+Consider the stated weekday cooking-time limit. Reuse ingredients sensibly to reduce cost and food waste.
+Do not assume that quinoa, avocado, imported foods, supplements, or expensive specialty products are available or necessary.
+Do not label foods as “good”, “bad”, “guilt-free”, or forbidden.
+PLAN
+Build a complete 7-day plan. Choose real dishes, for example idli with sambar, dosa with chutney, ven pongal, adai, lemon rice with sundal, rice with sambar and poriyal, curd rice with vegetables, chapati with chana masala, or vegetable upma. These are examples, not mandatory choices. Avoid repeating the same main dish too often.
+
+OUTPUT FORMAT
+Return exactly one Markdown table with these columns:
+
+| Day | Meal | Dish | Portion / serving guide |
+
+Include four rows per day: Breakfast, Lunch, Snack, and Dinner. Use familiar household measures where practical (for example, idli count, cups, ladles, or chapatis). Portion guidance must remain flexible and age-appropriate; do not give calorie counts or weight-loss targets.
+
+After the table, add:
+
+A short list of practical preparation tips for busy weekdays.
+A grouped shopping list for the 7 days.
+Any assumptions or details that need confirmation.
+AVOID
+Generic entries such as “healthy breakfast” or “vegetable dish”; name the actual dish.
+Weight-loss promises, calorie targets, body-shaming language, or rigid food rules.
+Medical claims or advice that replaces a clinician or registered dietitian.
+Ingredients that conflict with the allergies or needs in the PERSON DETAILS block.
+Omitting any day or meal.
+Changing the table columns or meal schedule between runs.
+Before answering, check that the table contains 28 meal rows, covers Monday through Sunday, follows the vegetarian requirement, and respects the PERSON DETAILS block.
